@@ -9,7 +9,7 @@ import About from "./components/About";
 import Contactus from "./components/Contactus";
 
 // ✅ Updated import: replaced 'Switch' with 'Routes'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [alertMessage, setAlertMessage] = useState("Dark");
